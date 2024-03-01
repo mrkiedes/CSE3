@@ -1,1 +1,1 @@
-something in
+print("My stuff")
