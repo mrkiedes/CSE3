@@ -8,10 +8,10 @@ boolean_list = [False, False, True, False, True]
 mixed_list = ["Hello", 2, "the", string_list]
 empty = []
 
-print(int_list[5])
-int_list = 23
-print(int_list)
+# Remove All True from boolean list
+print(boolean_list)
 
-if "hello" in mixed_list:
-    print("It was there!")
-    print("Condition")
+while True in boolean_list:
+    boolean_list.remove(True)
+
+print(boolean_list)
